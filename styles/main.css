@@ -1,0 +1,91 @@
+body {
+  background-color: #277DA1;
+  font-family: 'VT323', monospace;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+  color: #8ecae6;
+  margin: 30px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 0;
+  color: var(--red-bright);
+  text-align: center;
+  text-shadow: 0 -1px 0 var(--red-light);
+  letter-spacing: 2px;
+}
+
+h2 > span {
+  font-size: 2rem;
+  margin: 0 8px 0 2px;
+  text-shadow: none;
+}
+
+p {
+  margin: 0;
+}
+
+.display {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.label {
+  font-size: 1.25rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+.data-area-width {
+  max-width: var(--data-width);
+}
+
+footer {
+  font-size: 1.25rem;
+  position: relative;
+  bottom: 0;
+  color: #8ecae6;
+}
+
+footer a {
+  color: inherit;
+  font-weight: bold;
+  transition: all 0.25s ease;
+}
+
+footer a:hover {
+  transition: all 0.25s ease;
+  text-decoration: none;
+}
+
+.new-tab-icon::after {
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900; 
+  content: "\f35d";
+  margin-left: 5px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #333;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #8ecae6;
+}

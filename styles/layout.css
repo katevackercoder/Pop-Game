@@ -1,0 +1,53 @@
+.wrapper {
+  /* height: 100vh; */
+}
+
+.h-center, .v-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h-center {
+  flex-direction: row;
+}
+
+.v-center {
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.m-tb-20, .m-bt-20 {
+  margin: 20px 0;
+}
+
+.m-t-20 {
+  margin-top: 20px;
+}
+
+.m-b-20 {
+  margin-bottom: 20px;
+}
+
+.m-t-10 {
+  margin-top: 10px;
+}
+
+.m-b-10 {
+  margin-bottom: 10px;
+}
+
+.m-l-10 {
+  margin-left: 10px;
+}
+
+.m-l-20 {
+  margin-left: 20px;
+}

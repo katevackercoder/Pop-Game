@@ -1,0 +1,12 @@
+:root {
+  --game-width: 400px;
+  --game-height: 400px;
+  --data-width: 300px;
+  --balloon-size: 80px;
+  --red-dark: #FFDD00;
+  --red-bright: #f5a201;
+  --red: #FF7D00;
+  --red-mid: #8F00FF;
+  --red-light: #bdb2ff;
+  --yellow-bonus: #01BEFE;
+}

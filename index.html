@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0">
+    <title>POP POP</title>
+    <link href="styles/root.css" rel="stylesheet" type="text/css" />
+    <link href="styles/balloon.css" rel="stylesheet" type="text/css" />
+    <link href="styles/buttons.css" rel="stylesheet" type="text/css" />
+    <link href="styles/layout.css" rel="stylesheet" type="text/css" />
+    <link href="styles/leader-board.css" rel="stylesheet" type="text/css" />
+    <link href="styles/main.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+ 
+  </head>
+  <body>
+
+    <main class="wrapper v-center">
+      <header>
+        <h2 class="m-b-20"><span>🎈</span>POP POP<span>🎈</span></h2>
+      </header>
+      <section class="h-center data-area-width m-b-20">
+        <p class="v-center">
+          <span class="label points h-center">Points Scored</span>
+          <span class="display points">0</span>
+        </p>
+        <p class="v-center">
+          <span class="label points h-center">Points Missed</span>
+          <span class="display points-missed">0</span>
+        </p>
+        <p class="v-center">
+          <span class="label released h-center">Balloons Remaining</span>
+          <span class="display released">100</span>
+        </p>
+      </section>
+
+      <section class="container nature m-tb-20" data-dump=""></section>
+      
+      <div class="balloon" data-popped="0">
+        <div class="inner v-center"></div>
+        <div class="stick"></div>
+      </div>
+
+      <section class="h-center m-tb-20">
+        <p>
+          <button class="btn play">Play<i class="fas fa-play"></i></button>
+        </p>
+        <p class="m-l-20">
+          <button class="btn reset">Reset<i class="fas fa-redo-alt"></i></button>
+        </p>
+      </section>
+
+      <section class="leader-board v-center">
+        <h3>Leader Board <sup>(top 20)</sup></h3>
+        <ul class="leader-board-points scrollable"></ul>
+      </section>
+
+      <footer class="p-20 m-t-20">
+        <p class="text-center">&copy; Roland Levy <span id="year"></span> <a href="https://rolandlevy.co.uk" class="new-tab-icon" target="_blank">see more of my projects</a></p>
+      </footer>
+
+    </main>
+
+    <script type="text/javascript" src="src/data.json"></script>
+    <script type="module" src="script.js" defer></script>
+    
+  </body>
+</html>
